@@ -1,2 +1,19 @@
-# Security-Helmet-Detection
-roject aimed at enhancing workplace safety compliance by detecting helmet usage in real-time. Implemented Convolutional Neural Networks (CNNs) combined with OpenCV for live detection.
+security-helmet-detection/
+│
+├── README.md
+├── Notebooks/
+│   ├── Helmet_Detection_Training.ipynb
+│   └── Helmet_Detection_Testing.ipynb
+├── Data/
+│   ├── Helmet/
+│   │   ├── img001.jpg
+│   │   └── img002.jpg
+│   └── No_Helmet/
+│       ├── img001.jpg
+│       └── img002.jpg
+├── Images/
+│   ├── Detection_Sample1.png
+│   ├── Detection_Sample2.png
+│   └── Accuracy_Chart.png
+├── Scripts/
+│   └── detect_helmet.py
